@@ -49,7 +49,7 @@ return [
             "title" => "Verktyg och möjligheter för utveckling.",
         ],
         [
-            "text" => "Designide/Testsida",
+            "text" => "Idéer/Testsida",
             "url" => "test",
             "title" => "Prova olika konstruktioner",
         ],

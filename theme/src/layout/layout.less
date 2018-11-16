@@ -1,0 +1,113 @@
+/**
+ * Layout style for general structure of header, navbar, main, footer
+ * and other regions of the page including route specific styles.
+ */
+
+/**
+ * Variables
+ */
+
+
+/**
+ * General layout
+ */
+.inner-wrap {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: lightyellow;
+}
+
+.wrap-all {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: lightblue;
+}
+
+/**
+ * Main and sidebar layout
+ */
+
+.inner-wrap-main {
+    overflow:auto;
+    padding: 10px;
+}
+
+.region-main {
+    width: 70%;
+    margin-left: 10%;
+    float: left;
+    overflow: auto;
+
+    &.has-sidebar {
+        margin-left: 0;
+    }
+
+    &.has-sidebar-left.has-sidebar-right {
+        width: 60%;
+    }
+}
+
+.region-sidebar-left,
+.region-sidebar-right {
+    width: 30%;
+    float: left;
+}
+
+.region-sidebar-left.has-sidebar-right,
+.region-sidebar-right.has-sidebar-left {
+    width: 20%;
+    float: left;
+}
+
+.region-flash {
+    background-color: lightblue;
+}
+
+.my-navbar li {
+    display: inline;
+}
+
+.region-breadcrumb {
+    display: none;
+}
+
+.site-logo {
+    display: none;
+}
+
+.site-logo-text {
+    display: none;
+}
+
+.footer-column {
+    border: 1px solid lightyellow;
+    width: 33%;
+    display: inline;
+    float: left;
+}
+
+.byline {
+    display: block;
+    border: 1px solid black;
+    margin-top: 45px;
+    margin-bottom: 45px;
+    clear: both;
+    overflow: auto;
+}
+
+.left {
+    float: left;
+    display: inline-block;
+    clear: both;
+}
+
+.right {
+    float: right;
+    display: inline-block;
+    clear: both;
+}
+
+.container {
+    display: inline-block;
+    clear: both;
+}
